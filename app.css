@@ -3234,3 +3234,27 @@ aside.NowPlayingView .jkHe7O1fLz6Q31gGdsBQ .canvasVideoContainerNPV > video {
 }
 
 
+/* Clear Spotify's solid page backgrounds (Liked Songs, playlists, home, artist) */
+.QqprhKqwqIsC3c9SIKOE,
+.sxMpFt17cJVTesE9u6fX,
+.Ac2raqVCOQ_HYbbCkBAP,
+.V7ICuEr1ZBtemPGKXeZb,
+._ddPhxHdxmpT13IbjTmr,
+.mkLf3oHSpzyF02_8URcp,
+.AJjP1RzhySWiLWVcLlNA,
+.oCSWtOAH_CgjIsi_H_PS {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+/* Artist banner: keep the dark fade, drop the solid colour that fades in on scroll */
+.TmjKsp7ZdmzlG9vtR_94.xWAGb7rkhYb1eQ8LiDaB {
+  background-color: transparent !important;
+  --background-base: transparent !important;
+  opacity: 0.6 !important;
+}
+
+.Zsz_4IzlyaFvu7jBCd06 {
+  background: transparent !important;
+}
